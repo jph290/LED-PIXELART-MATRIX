@@ -25,4 +25,4 @@ for switching between different modes, skipping an animation or enabling loop mo
 -To-Do-
 -detailed assembly instructions
 -optional wifi functionality for esp32 and other microcontrolles with onbaord wifi
-![image](/01.JPG)
+![image](images/01.JPG)
