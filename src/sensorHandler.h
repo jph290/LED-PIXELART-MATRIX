@@ -2,6 +2,7 @@
 #define SENSOR_HANDLER_H
 
 #ifdef USE_TEMP_SENSOR
+#include "DallasTemperature.h"
 OneWire oneWire(TEMP_PIN);
 DallasTemperature sensors(&oneWire);
 #endif

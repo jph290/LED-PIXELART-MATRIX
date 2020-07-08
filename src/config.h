@@ -11,23 +11,23 @@
 
 //automatically cycle between clockmode and animationmode (seconds)
 //set to 0 to disable
-#define AUTO_CLOCK_DURATION 0
+#define AUTO_CLOCK_DURATION 5000
 
 // the digital pin for controlling the WS2812 LED Matrix
-#define LED_PIN  4
+#define LED_PIN  13
 
 // the pin for connecting the SD card
 #define SD_PIN  5
 
 //activates automatic brightness control 
-#define USE_LIGHT_SENSOR
+//#define USE_LIGHT_SENSOR
 #define LS_PIN 33
 #define LS_GND 14
 #define LS_VCC 32
 
 //Button 1 changes animation/clock mode, Button 2 skips the current animation,
 //Button 3 pauses the animation progression, so that the current aniamtion will be played in a loop.
-//#define USE_BUTTONS
+#define USE_BUTTONS
 #define BUTTON_GND 33
 #define BUTTON1_PIN 25
 #define BUTTON2_PIN 26
@@ -35,11 +35,11 @@
 
 //activates clock mode
 //#define USE_RTC_CLOCK
-#define RTC_I2C_ADDRESS 0x68 // I2C adress of  RTC  DS3231
+//#define RTC_I2C_ADDRESS 0x68 // I2C adress of  RTC  DS3231
 
 //display ambbient temperature in clock mode
-//#define USE_TEMP_SENSOR
-//#define TEMP_PIN 15
+#define USE_TEMP_SENSOR
+#define TEMP_PIN 22
 
 //print additional information to the serial monitor
 #define DEBUG 1

@@ -4,7 +4,7 @@
 Matrix::Matrix() {
   FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, MATRIX_WIDTH * MATRIX_HEIGHT).setCorrection(TypicalSMD5050);
   FastLED.setMaxPowerInVoltsAndMilliamps(5, 1000);
-  FastLED.setBrightness(64);
+  FastLED.setBrightness(30);
 
 }
 

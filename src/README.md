@@ -1,7 +1,4 @@
 # LED-PIXELART-MATRIX
-
-Original Details below.  Forked 07-07-2020.
---------------------------------------------
 WIP firmware for an esp32 based LED Matrix
 
 This is the firmware for my DIY LED Pixelart aniamtion matrix. 
